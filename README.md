@@ -2,7 +2,7 @@ DiffEqGrapher
 =============
 
 Differential Equation Grapher
-So this isn't actually a readme, this is a not to george
+So this isn't actually a readme, this is a note to george
 
 =======
 Operation classes handeled seperately, have public methods:
@@ -26,7 +26,7 @@ GridDisplayable
   extends to:
     SlopeField
       Uses GridIterator to cycle through points and display slope, within a box, at each point
-      Must contain a specified order
+      Has information about what order it is, must be able to work generally
     VectorField
       Cycles through and displays length and magnitude of vectors
   
